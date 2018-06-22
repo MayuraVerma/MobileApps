@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">MyPlayer</string>
+    <string name="New">New</string>
+    <string name="cancel">cancel</string>
+    <string name="all">All</string>
+    <string name="ok">ok</string>
+    <string name="ext">External</string>
+    <string name="play">Play</string>
+    <string name="go">Go</string>
+    <string name="action_settings">settings</string>
+    <string name="title_activity_file_browser">FileBrowser</string>
+    <string name="player">Player</string>
+    <string name="descr_overflow_button">delete</string>
+
+    <string name="files">Files</string>
+    <string name="directories">Folders</string>
+    <string name="goUp">Go Up</string>
+    <string name="CNew">Enter New Folder Name</string>
+    <string name="create">Create</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+
+    <string name="title_section1">Title1</string>
+    <string name="title_section2">Title2</string>
+    <string name="title_section3">Title3</string>
+
+    <string-array name="acceptedFileExtentions">
+        <item>*.flv</item>
+        <item>*.mp4</item>
+        <item>*.mp3</item>
+    </string-array>
+
+    <string-array name="options_list">
+        <item>Playlists</item>
+        <item>Browse</item>
+        <item>Folders</item>
+    </string-array>
+
+    <string-array name="Playlists">
+        <item>New</item>
+    </string-array>
+
+
+    <string-array name="Browse">
+        <item>Folders</item>
+        <item>Files</item>
+    </string-array>
+
+
+    <string-array name="Folders">
+        <item>View</item>
+    </string-array>
+
+    <string name="none">NONE</string>
+    <string name="Int">Internal</string>
+    <string name="action_example">ActionExample</string>
+    <string name="action_popup">PopUp</string>
+    <string name="about">About</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_screen_size">FullScreen</string>
+    <string name="zoomin">Zoom In</string>
+    <string name="zoomout">Zoom Out</string>
+    <string name="screenpopup">ScreenPopup</string>
+    <string name="ic_play_pause">play_pause</string>
+    <string name="screentime">Duration</string>
+    <string name="media_play_pause">play_pause</string>
+    <string name="mediaTitle">Title</string>
+    <string name="action_play">Play</string>
+    <string name="playerFileBrowser">FileBrowser</string>
+    <string name="screenfilepopup">screenfilepopup</string>
+    <string name="fileNameView">Large Text</string>
+    <string name="fileDetailsView">Small Text</string>
+    <string name="fileThumbnail">fileThumbnail</string>
+    <string name="addfiles">New Button</string>
+    <string name="add_files">Add Files</string>
+    <string name="MyPlayer.ApplicationName">MyPlayer</string>
+    <string name="MyPlayer.ApplicationDescription">Another media player</string>
+    <string name="AboutActivity.CloseBtn">Close</string>
+    <string name="AboutActivity_VersionText">0.1</string>
+    <string name="AboutActivity_LicenseTextValue" />
+    <string name="AboutActivity_LicenseText">License</string>
+    <string name="AboutActivity_UrlTextValue" />
+    <string name="iconpreview">Preview in playlist</string>
+    <string name="setting_close">close</string>
+    <string name="settingsTextView">MyPlayer settings</string>
+    <string name="AboutImage">MyPlayer Icon</string>
+    <string name="amplifyaudio">Amplify Audio</string>
+    <string name="shuffle">Shuffle</string>
+</resources>

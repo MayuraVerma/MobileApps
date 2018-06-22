@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="ime_name">KanKey</string>
+    <string name="app_name">KanKey</string>
+    
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <string name="text_welcome">ಆಂಡ್ರಾಯ್ಡ್ ಕನ್ನಡ ಕೀಲಿಮಣೆ  ಕಾನ್ ಕೀ (kankey)ಸ್ವಾಗತ</string>
+    <string name="text_Header">ಆಂಡ್ರಾಯ್ಡ್ ಕನ್ನಡ ಕೀಲಿಮಣೆ</string>
+    
+    <string name="kankey_txt"></string>
+
+    <string name="shabdalipi_url">http://www.karnataka.gov.in/kcit/</string>
+    <string name="text_help_header">ಕಾನ್ ಕೀ (Kankey) ಯನ್ನು ಚಾಲನೆ ಮಾಡುವ ವಿಧಾನ</string>
+    <string name="text_help_steps">
+                 ಆಂಡ್ರಾಯ್ಡ್  2.3.4 ಮತ್ತು ಮೇಲ್ಪಟ್ಟು :(settings) -&gt; Languages &amp; Keyboards and tick KanKey \nAndroid 2.3.4 : Goto Settings -&gt; Locale &amp; Text and tick KanKey\n\n
+	Long press in a text box and choose Input Method and then select KanKey.     
+    </string>
+</resources>

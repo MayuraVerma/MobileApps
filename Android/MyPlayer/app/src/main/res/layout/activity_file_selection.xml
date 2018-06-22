@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fileSelectionContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="60">
+
+        <Button
+            android:id="@+id/New"
+            style="@style/AppTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="30"
+            android:background="@android:color/darker_gray"
+            android:text="@string/New" />
+
+        <Button
+            android:id="@+id/storage"
+            style="@style/AppTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="30"
+            android:background="@android:color/darker_gray"
+            android:text="@string/ext" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/folderpath"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/screenfilepopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="left"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/screenfilepopup"></ImageView>
+
+
+    <ListView
+        android:id="@+id/directorySelectionList"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:choiceMode="multipleChoice"
+        android:theme="@style/AppTheme" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="90">
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/AppTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@android:color/darker_gray"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/all"
+            style="@style/AppTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@android:color/darker_gray"
+            android:text="@string/all" />
+
+        <Button
+            android:id="@+id/ok"
+            style="@style/AppTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@android:color/darker_gray"
+            android:text="@string/ok" />
+    </LinearLayout>
+</LinearLayout>

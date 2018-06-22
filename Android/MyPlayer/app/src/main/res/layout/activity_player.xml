@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    style="@style/AppTheme">
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"></SurfaceView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical|center|center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/top_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <AutoCompleteTextView
+                android:id="@+id/address"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.86"
+                android:background="@android:color/transparent"
+                android:completionThreshold="1" />
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:background="@android:color/transparent"
+                android:enabled="true"
+                android:text="@string/play" />
+
+            <Button
+                android:id="@+id/go"
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:enabled="true"
+                android:text="@string/go" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:background="@android:color/transparent"
+            android:id="@+id/middlepanel"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerInParent="true"
+            style="@style/AppTheme"
+            android:layout_alignParentEnd="false"
+            android:gravity="center_vertical|center|right|center_horizontal"
+            android:layout_alignParentRight="true">
+
+            <ssh.net.mobile.android.media.myplayer.VolumeSlider
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:rotation="270"
+                android:visibility="visible"
+                android:id="@+id/volumeSlider"
+                style="@style/AppTheme"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:theme="@style/AppTheme"
+                android:layout_marginBottom="45dp"
+                android:layout_marginTop="45dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/bottom_panel_hotizontal1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp"
+                    android:layout_gravity="center"
+                    android:theme="@style/AppTheme"
+                    android:layout_weight="1.0">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/timer"
+                            style="@style/AppTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:autoText="false"
+                            android:backgroundTintMode="screen"
+                            android:text="@string/screentime"
+                            android:textAlignment="textEnd"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:textColorHighlight="@android:color/background_dark"
+                            android:visibility="visible"
+                            android:layout_marginLeft="10dp" />
+
+                        <TextView
+                            android:id="@+id/mediaTitle"
+                            style="@style/AppTheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:autoText="false"
+                            android:backgroundTintMode="screen"
+                            android:text="@string/mediaTitle"
+                            android:textAlignment="textEnd"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textColorHighlight="@android:color/background_dark"
+                            android:visibility="visible"
+                            android:textIsSelectable="false"
+                            android:layout_marginLeft="50dp"
+                            android:theme="@style/AppTheme"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+
+                    <SeekBar
+                        android:id="@+id/seekBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="2dp"
+                        android:visibility="visible"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ic_play_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/ic_play_pause"></ImageView>
+
+        <ImageView
+            android:id="@+id/screenpopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/screenpopup"></ImageView>
+
+    </RelativeLayout>
+
+</FrameLayout>

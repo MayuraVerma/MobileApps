@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:id="@+id/appsettingsll">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/settingsTextView"
+        android:id="@+id/settingsTextView"
+        android:background="@android:color/background_dark"
+        style="@style/AppTheme"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="normal"
+        android:layout_gravity="center" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/iconpreview"
+        android:id="@+id/iconpreviewswitch"
+        android:layout_gravity="right"
+        android:textColor="@android:color/holo_blue_bright"
+        style="@style/AppTheme" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/shuffle"
+        android:id="@+id/shuffleswitch"
+        android:layout_gravity="center"
+        style="@style/AppTheme"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/amplifyaudio"
+        android:id="@+id/textView"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_gravity="top|left|bottom|center_horizontal"
+        style="@style/AppTheme"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_dark" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/seekBar2"
+        android:layout_gravity="center"
+        android:background="@android:color/background_dark"
+        style="@style/AppTheme" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_close"
+        android:id="@+id/AppSettings_CloseBtn"
+        android:layout_gravity="center_vertical"
+        style="@style/AppTheme" />
+
+</LinearLayout>
